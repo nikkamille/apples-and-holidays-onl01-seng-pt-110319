@@ -62,7 +62,6 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.map do |season, holiday|
     season.to_s.capitalize!
     holiday.map do |holiday_name, supplies|
-      binding.pry
     end
   end
 end
